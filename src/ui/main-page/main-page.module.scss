@@ -1,0 +1,13 @@
+.wrapp {
+  height: 100vh;
+  .inputContainer {
+    border: 1px solid;
+    input {
+    }
+  }
+  .contentWrapp {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+  }
+}
