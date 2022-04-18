@@ -1,13 +1,18 @@
 .wrapp {
-  height: 100vh;
-  .inputContainer {
-    border: 1px solid;
-    input {
-    }
-  }
+  display: flex;
   .contentWrapp {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .contentContainer {
+      padding: 0 20px 0 20px;
+      border: 1px solid;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      background: aliceblue;
+    }
   }
 }

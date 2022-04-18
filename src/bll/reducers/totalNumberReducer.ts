@@ -40,7 +40,6 @@ export const setDataTC = (city?: string) => (dispatch: Dispatch) => {
   covidAPI.totalNumber(city)
     .then(res => {
       dispatch(setDataAC(res.data.data))
-      console.log(res.data.data)
     })
     .catch(() => {
       console.log('error')

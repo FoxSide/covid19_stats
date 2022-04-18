@@ -1,13 +1,9 @@
-import React, {ChangeEvent, useEffect} from 'react';
+import React, {ChangeEvent} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {AppRootStateType} from "../../bll/redux-store/store";
 import {setDataTC} from "../../bll/reducers/totalNumberReducer";
-import {setAllCountriesTC} from "../../bll/reducers/allCountriesReducer";
 
 export const CountrySelect = () => {
-  useEffect(() => {
-    dispatch(setAllCountriesTC())
-  }, [])
 
   const allCountries = useSelector((state: AppRootStateType) => state.allCountries)
   const dispatch = useDispatch()

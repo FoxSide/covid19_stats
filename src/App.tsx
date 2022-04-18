@@ -4,7 +4,7 @@ import {MainPage} from "./ui/main-page/MainPage";
 
 function App() {
   return (
-    <div>
+    <div className={s.app}>
       <MainPage/>
     </div>
   );
