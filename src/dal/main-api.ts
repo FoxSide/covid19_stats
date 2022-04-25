@@ -23,3 +23,4 @@ export const covidAPI = {
     return instance.get('stats')
   }
 }
+//
